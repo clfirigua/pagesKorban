@@ -1,0 +1,316 @@
+body {
+    font-family: 'Poppins';
+}
+
+.maquinaria {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.maquinaria-form {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maquinaria-img {
+    width: 60%;
+}
+
+.maquinaria img {
+    background-color: white;
+    width: 100%;
+}
+
+.m-form {
+    width: 70%;
+    background-color: #03A9F4;
+    height: 80%;
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+}
+
+.m-form>h5 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.m-form-input {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 9%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.m-form-botton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.m-form-botton button {
+    background-color: #C2E013;
+    color: white;
+    border: 0px;
+    margin-top: 25px;
+    width: 40%;
+    border-radius: 6px;
+}
+
+.auth {
+    color: #03A9F4;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.auth-p {
+    font-weight: bold;
+    font-size: 12.5px;
+    text-align: justify;
+}
+
+.info-korban {
+    background-color: #F2F2F2;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 45px;
+}
+
+.m-5 {
+    width: 50%;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opciones div {
+    width: 45%;
+}
+
+.info-korban>p {
+    font-size: 10px;
+}
+
+.info-korban>h5 {
+    font-size: 700;
+    font-weight: bold;
+    color: #03A9F4;
+}
+
+.info-korban-info {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    height: 300px;
+    padding: 0 50px 0 55px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.info-korban-sec {
+    width: 25%;
+    height: inherit;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #03A9F4; */
+    /* padding: 10px; */
+    justify-content: space-between;
+}
+
+.info-korban-sec>h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.info-korban-sec>h4 {
+    font-size: 18px;
+    color: #03A9F4;
+}
+
+.info-korban-sec>p {
+    text-align: justify;
+    padding: 0 30px 0 30px;
+}
+
+.korban-razones {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 50px;
+}
+
+.korban-razones>p {
+    color: #adadad;
+}
+
+.korban-razones>h5 {
+    color: #03A9F4;
+}
+
+.razones-g {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.razones-1 {
+    width: 33%;
+    height: 50%;
+    padding: 20px;
+    border-top: 1px solid #D2D1D1;
+    border-right: 1px solid #D2D1D1;
+    border-left: 1px solid #D2D1D1;
+
+}
+
+.razones-1>h5 {
+    color: #03A9F4;
+}
+
+.razones-1>p {
+    text-align: justify;
+}
+
+.razones-2 {
+    width: 33%;
+    height: 50%;
+    padding: 20px;
+    border-right: 1px solid #D2D1D1;
+    border-left: 1px solid #D2D1D1;
+
+}
+
+@media (max-width: 600px) {
+
+    .maquinaria {
+        flex-direction: column;
+    }
+
+    .maquinaria-form {
+        width: 100%;
+        height: 500px;
+    }
+
+    .maquinaria-img {
+        width: 100%;
+    }
+
+    .m-form>h5 {
+        text-align: center;
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .m-form-input {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .m-form {
+        width: 70%;
+        height: 85%;
+        border-radius: 33px;
+        padding: 28px;
+        z-index: 200;
+        background-color: #03a9f4e0;
+    }
+
+    .maquinaria img {
+        width: 100%;
+        margin-top: -393px;
+        position: absolute;
+    }
+
+    .opciones {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .opciones div {
+        width: 100%;
+    }
+
+    .info-korban-info {
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .info-korban-sec {
+        width: 100%;
+    }
+
+    .razones-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .razones-2 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .m-form {
+        width: 90%;
+        height: 85%;
+        border-radius: 33px;
+        padding: 28px;
+        z-index: 200;
+        background-color: #03a9f4e0;
+    }
+
+    .maquinaria img {
+        width: 100%;
+        margin-top: -393px;
+        position: absolute;
+    }
+
+    .opciones {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .opciones div {
+        width: 100%;
+    }
+
+    .info-korban-info {
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .info-korban-sec {
+        width: 100%;
+    }
+
+    .razones-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .razones-2 {
+        width: 100%;
+        height: auto;
+    }
+}
