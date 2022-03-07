@@ -22,6 +22,7 @@ body {
 .maquinaria img {
     background-color: white;
     width: 100%;
+
 }
 
 .m-form {
@@ -47,6 +48,7 @@ body {
     height: 9%;
     margin-top: 20px;
     margin-bottom: 10px;
+    display: flex;
 }
 
 .m-form-botton {
@@ -60,7 +62,7 @@ body {
     color: white;
     border: 0px;
     margin-top: 25px;
-    width: 40%;
+    padding: 0.5rem 1.5rem;
     border-radius: 6px;
 }
 
@@ -111,7 +113,7 @@ body {
     margin-top: 25px;
     width: 100%;
     display: flex;
-    height: 300px;
+    height: auto;
     padding: 0 50px 0 55px;
     /* align-items: center; */
     justify-content: space-between;
@@ -160,7 +162,6 @@ body {
 
 .razones-g {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -191,6 +192,32 @@ body {
     border-left: 1px solid #D2D1D1;
 
 }
+.form-input{
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin:0rem 1rem;
+    padding: 0rem 1rem;
+    border: none; 
+}
+.form-input:focus{
+   outline: none;
+}
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .maquinaria{
+        height: auto;
+        margin: 1rem;
+    }
+    .form-input, .m-form-input{
+        height: 1.5rem;
+    }
+    .m-form{
+        height: auto;
+    }
+}
+
+    
 
 @media (max-width: 600px) {
 
@@ -206,7 +233,9 @@ body {
     .maquinaria-img {
         width: 100%;
     }
-
+    .m-form{
+        height: 100%;
+    }
     .m-form>h5 {
         text-align: center;
         font-family: 'Poppins';
@@ -230,6 +259,7 @@ body {
         z-index: 200;
         background-color: #03a9f4e0;
     }
+
 
     .maquinaria img {
         width: 100%;
