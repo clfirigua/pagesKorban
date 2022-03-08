@@ -20,7 +20,7 @@ body {
 }
 
 .maquinaria img {
-    background-color: white;
+    /* background-color: white; */
     width: 100%;
 
 }
@@ -264,7 +264,7 @@ body {
     .maquinaria img {
         width: 100%;
         margin-top: -393px;
-        position: absolute;
+        /* position: absolute; */
     }
 
     .opciones {
