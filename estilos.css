@@ -20,7 +20,6 @@ body {
 }
 
 .maquinaria img {
-    /* background-color: white; */
     width: 100%;
 
 }
@@ -204,6 +203,11 @@ body {
 .form-input:focus{
    outline: none;
 }
+
+.m-form-input input{
+    border: 0;
+    outline:none;
+}
 @media only screen and (min-width: 600px) and (max-width: 900px){
     .maquinaria{
         height: auto;
@@ -344,3 +348,4 @@ body {
         height: auto;
     }
 }
+
